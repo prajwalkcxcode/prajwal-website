@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Landing Page</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        html{
+            scroll-behavior:smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- Navbar -->
+<nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">MinimalUI</h1>
+
+        <div class="space-x-6 hidden md:block">
+            <a href="#home" class="hover:text-blue-600">Home</a>
+            <a href="#features" class="hover:text-blue-600">Features</a>
+            <a href="#about" class="hover:text-blue-600">About</a>
+            <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="py-24">
+
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+<div>
+
+<h1 class="text-5xl font-extrabold leading-tight mb-6">
+Modern Website<br>
+Made Simple.
+</h1>
+
+<p class="text-gray-600 text-lg mb-8">
+Beautiful minimal landing page built with Tailwind CSS.
+Fast, responsive and ready for Docker deployment.
+</p>
+
+<div class="space-x-4">
+<button class="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
+Get Started
+</button>
+
+<button class="border px-6 py-3 rounded-xl hover:bg-gray-100">
+Learn More
+</button>
+</div>
+
+</div>
+
+<div>
+<img
+class="rounded-3xl shadow-xl"
+src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200"
+alt="">
+</div>
+
+</div>
+
+</section>
+
+<!-- Features -->
+
+<section id="features" class="bg-white py-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-4xl font-bold text-center mb-12">
+Features
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="p-8 rounded-2xl shadow hover:shadow-lg transition">
+<h3 class="font-bold text-xl mb-3">
+⚡ Fast
+</h3>
+<p class="text-gray-600">
+Optimized for speed with lightweight design.
+</p>
+</div>
+
+<div class="p-8 rounded-2xl shadow hover:shadow-lg transition">
+<h3 class="font-bold text-xl mb-3">
+🎨 Beautiful
+</h3>
+<p class="text-gray-600">
+Modern UI using Tailwind CSS.
+</p>
+</div>
+
+<div class="p-8 rounded-2xl shadow hover:shadow-lg transition">
+<h3 class="font-bold text-xl mb-3">
+📱 Responsive
+</h3>
+<p class="text-gray-600">
+Looks great on desktop, tablet and mobile.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- About -->
+
+<section id="about" class="py-20">
+
+<div class="max-w-5xl mx-auto text-center px-6">
+
+<h2 class="text-4xl font-bold mb-6">
+About
+</h2>
+
+<p class="text-gray-600 text-lg leading-8">
+This website is designed with a clean, minimal aesthetic.
+Perfect for portfolios, startups, SaaS products or personal landing pages.
+</p>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact" class="bg-gray-900 text-white py-20">
+
+<div class="max-w-xl mx-auto text-center px-6">
+
+<h2 class="text-4xl font-bold mb-6">
+Let's Work Together
+</h2>
+
+<p class="text-gray-400 mb-8">
+Build beautiful websites with modern technologies.
+</p>
+
+<button class="bg-blue-600 px-8 py-3 rounded-xl hover:bg-blue-700">
+Contact Us
+</button>
+
+</div>
+
+</section>
+
+<footer class="py-8 text-center text-gray-500">
+© 2026 MinimalUI. All Rights Reserved.
+</footer>
+
+</body>
+</html>
